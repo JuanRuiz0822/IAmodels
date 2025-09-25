@@ -19,18 +19,22 @@
         <h1>🔬 Resultados del Análisis</h1>
         
         {% if success %}
+            {% if mostrar_segmentacion %}
             <div class="result-section success">
                 <h2>🎯 Segmentación y Estado</h2>
                 <img src="/{{ imagen_segmentada }}" alt="Imagen Segmentada">
                 <p><strong>Estado del fruto:</strong> {{ estado }}</p>
             </div>
+            {% endif %}
 
+            {% if mostrar_enfermedad %}
             <div class="result-section success">
                 <h2>🦠 Detección de Enfermedades</h2>
                 <img src="/{{ imagen_enfermedad }}" alt="Imagen Enfermedad">
                 <p><strong>Enfermedad detectada:</strong> {{ clase_enfermedad }}</p>
                 <p><strong>Descripción:</strong> {{ descripcion }}</p>
             </div>
+            {% endif %}
         {% else %}
             <div class="result-section error">
                 <h2>❌ Error</h2>

@@ -10,6 +10,7 @@ def segmentar_imagen(img_path, salida_dir):
     """
     Segmenta la imagen usando YOLO y determina si es maduro o verde
     """
+    imagen_nombre = os.path.basename(img_path)
     try:
         # Verificar si el modelo existe
         if not os.path.exists(MODEL_PATH):
@@ -20,7 +21,6 @@ def segmentar_imagen(img_path, salida_dir):
         if not os.path.exists(salida_dir):
             os.makedirs(salida_dir)
             
-        imagen_nombre = os.path.basename(img_path)
         results = model(img_path, conf=0.5, iou=0.6)
         
         # Crear imagen con detecciones
@@ -38,7 +38,8 @@ def segmentar_imagen(img_path, salida_dir):
         
     except Exception as e:
         # En caso de error, crear imagen de respaldo
-        img = Image.open(img_path)
+        os.makedirs(salida_dir, exist_ok=True)
+        img = Image.open(img_path).convert('RGB')
         save_path = os.path.join(salida_dir, f"segmentado_{imagen_nombre}")
         img.save(save_path)
         return save_path, "No determinado - Error en segmentación"
