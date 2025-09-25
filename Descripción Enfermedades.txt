@@ -1,0 +1,27 @@
+Tomato___Bacterial_spot (Mancha bacteriana)
+
+Esta enfermedad se manifiesta como pequeñas manchas acuosas y oscuras, a menudo con un borde negro y un halo amarillo. Las lesiones pueden ser irregulares y, a medida que avanzan, se secan y pueden agrietarse en el centro. Si la infección es severa, las manchas se unen, causando que grandes áreas de la hoja se vuelvan amarillas y mueran, afectando principalmente las hojas más viejas y bajas de la planta. 🍅
+
+Tomato___Early_blight (Tizón temprano)
+
+Causado por un hongo, el tizón temprano se reconoce por sus manchas marrones que desarrollan anillos concéntricos, creando un patrón distintivo de "ojo de buey" o "diana". Estas lesiones crecen y suelen estar rodeadas por un halo amarillo. Afecta primero a las hojas inferiores y más viejas, provocando que se amarilleen y caigan prematuramente, debilitando la planta y exponiendo los frutos al sol.
+
+Tomato___Late_blight (Tizón tardío)
+
+Es una de las enfermedades más destructivas. Se presenta como grandes manchas irregulares de color verde pálido a marrón oscuro, con una apariencia grasosa o acuosa. En condiciones de alta humedad, se puede observar un moho blanco y velloso en el envés de las hojas, especialmente en los bordes de las lesiones. La enfermedad progresa muy rápido, pudiendo destruir la planta por completo en pocos días.
+
+Tomato___Septoria_leaf_spot (Mancha foliar por Septoria)
+
+Esta afección se caracteriza por la aparición de numerosas manchas pequeñas y circulares, de 1 a 3 mm de diámetro. Tienen un borde marrón oscuro y un centro de color grisáceo o canela. Un signo clave para identificarla es la presencia de pequeños puntos negros en el centro de las manchas, que son los cuerpos fructíferos del hongo. Al igual que otras enfermedades fúngicas, comienza en las hojas inferiores.
+
+Tomato___Tomato_Yellow_Leaf_Curl_Virus (Virus del rizado amarillo)
+
+Transmitido por la mosca blanca, este virus causa síntomas severos en la planta. Las hojas nuevas se vuelven notablemente más pequeñas, se arrugan y se enrollan hacia arriba, adoptando una forma de cuchara. Además, presentan un amarillamiento intenso (clorosis) en los bordes y entre las venas. La planta entera sufre un retraso en el crecimiento y una reducción drástica en la producción de frutos.
+
+Tomato___Tomato_mosaic_virus (Virus del mosaico del tomate)
+
+Este virus produce un patrón característico de "mosaico" en las hojas, con áreas alternas de color verde claro, verde oscuro y a veces amarillo. Las hojas pueden aparecer deformadas, rizadas o con una textura abultada y filiforme. La planta muestra un crecimiento reducido y un aspecto general enfermizo. La infección puede afectar también a los frutos, causando manchas y maduración irregular.
+
+Tomato___healthy (Sano)
+
+Una hoja de tomate sana presenta un color verde vibrante y uniforme, sin signos de manchas, decoloración o lesiones. Su superficie es lisa y su textura, turgente, sin ninguna deformación, rizado o arrugamiento. Los bordes están bien definidos y no hay presencia de moho, agujeros por insectos ni patrones extraños. Es el estado ideal que indica que la planta está recibiendo los nutrientes y las condiciones adecuadas para un crecimiento vigoroso. 🌱
