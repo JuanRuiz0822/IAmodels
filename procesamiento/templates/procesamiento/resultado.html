@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IA Models - Resultado</title>
+</head>
+<body>
+    <h2>Segmentación</h2>
+    <img src="/{{ imagen_segmentada }}" alt="Imagen Segmentada" width="400">
+    <p>Estado del fruto: {{ estado }}</p>
+
+    <h2>Enfermedades</h2>
+    <img src="/{{ imagen_enfermedad }}" alt="Imagen Enfermedad" width="400">
+    <p>Enfermedad detectada: {{ clase_enfermedad }}</p>
+    <p>Descripción: {{ descripcion }}</p>
+
+    <br>
+    <a href="{% url 'index' %}">Procesar otra imagen</a>
+</body>
+</html>
