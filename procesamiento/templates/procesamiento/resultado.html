@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IA Models - Resultado</title>
+    <title>IAmodels - Resultados</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 10px; }
+        .result-section { margin: 30px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        .error { background: #ffebee; border-color: #f44336; color: #c62828; }
+        .success { background: #e8f5e8; border-color: #4caf50; }
+        img { max-width: 400px; height: auto; border: 2px solid #ddd; border-radius: 8px; }
+        h2 { color: #2c3e50; }
+        .back-btn { background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .back-btn:hover { background: #2980b9; }
+    </style>
 </head>
 <body>
-    <h2>Segmentación</h2>
-    <img src="/{{ imagen_segmentada }}" alt="Imagen Segmentada" width="400">
-    <p>Estado del fruto: {{ estado }}</p>
+    <div class="container">
+        <h1>🔬 Resultados del Análisis</h1>
+        
+        {% if success %}
+            <div class="result-section success">
+                <h2>🎯 Segmentación y Estado</h2>
+                <img src="/{{ imagen_segmentada }}" alt="Imagen Segmentada">
+                <p><strong>Estado del fruto:</strong> {{ estado }}</p>
+            </div>
 
-    <h2>Enfermedades</h2>
-    <img src="/{{ imagen_enfermedad }}" alt="Imagen Enfermedad" width="400">
-    <p>Enfermedad detectada: {{ clase_enfermedad }}</p>
-    <p>Descripción: {{ descripcion }}</p>
+            <div class="result-section success">
+                <h2>🦠 Detección de Enfermedades</h2>
+                <img src="/{{ imagen_enfermedad }}" alt="Imagen Enfermedad">
+                <p><strong>Enfermedad detectada:</strong> {{ clase_enfermedad }}</p>
+                <p><strong>Descripción:</strong> {{ descripcion }}</p>
+            </div>
+        {% else %}
+            <div class="result-section error">
+                <h2>❌ Error</h2>
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
 
-    <br>
-    <a href="{% url 'index' %}">Procesar otra imagen</a>
+        <br>
+        <a href="{% url 'index' %}" class="back-btn">🔄 Analizar otra imagen</a>
+    </div>
 </body>
 </html>
